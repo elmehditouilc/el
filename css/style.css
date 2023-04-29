@@ -386,14 +386,14 @@ h6 {
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 28px;
-  border-radius: 6px;
+  border-radius: 8px;
   transition: 0.5s;
   color: #fff;
-  background: #009cea;
+  background: #6fa0c4;
 }
 
 #hero .btn-get-started:hover {
-  background: #008bd1;
+  background: #2cc7cc;
 }
 
 #hero .hero-img {
