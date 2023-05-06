@@ -1115,7 +1115,6 @@ section {
 .pricing .box {
   padding: 0px;
   text-align: center;
-  border-radius: 7px;
   position: relative;
   overflow: hidden;
   border: 2.6px solid #6c72721c;
@@ -1664,4 +1663,87 @@ input[type="submit"] {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+.ab {
+  padding: 0;
+}
+
+.ab .container {
+  padding: 60px 50px;
+  
+}
+
+@media (max-width: 992px) {
+  .ab .container {
+    padding: 30px;
+  }
+}
+
+.ab .content h3 {
+  font-weight: 400;
+  font-size: 32px;
+  color: #364146;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+}
+
+
+.ab .content h4 {
+  font-weight: 400;
+  font-size: 32px;
+  color: #364146;
+  font-family: "Poppins", sans-serif;
+}
+.ab .content ul {
+  list-style: none;
+  padding: 20px;
+  background-color: #f7f8f9;
+
+}
+
+.ab .content ul li {
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+
+.ab .content ul i {
+  font-size: 18px;
+  padding-right: 4px;
+  color: #28a745;
+}
+
+.ab .content p:last-child {
+  margin-bottom: 0;
+  font-family: "Poppins", sans-serif;
+
+}
+
+
+
+
+
+.btn-get-starte {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 28px;
+  transition: 0.5s;
+  color: #ffffff;
+  background: #252c31;
+}
+
+.btn-get-starte:hover {
+  color: white;
 }
